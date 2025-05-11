@@ -1,48 +1,59 @@
+import { motion } from "framer-motion";
+
 const Experiences = () => {
   return (
-    <section className="my-12">
-      <h2 className="text-xl font-semibold mb-2">Experiences</h2>
-      <ul className="space-y-4">
+    <motion.section
+      className="pb-12 text-center"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-2xl font-bold mb-2">Career</h2>
+      <ul className="space-y-7 max-w-2xl">
         <li>
-          <strong>
-            UST Global (Malaysia) Sdn. Bhd. | April 2024 - Present
+          <strong className="text-xl">
+            Software Engineer @ UST Global (Malaysia) Sdn. Bhd. <br />{" "}
           </strong>
-          <br />• Led front-end development for internal projects using
-          React.js, focusing on building a Sports Event Management Web App with
-          role-based access control and seamless API integration
-          <br />• Developed a real-time multilingual translation web application
-          using React.js, Web Speech API, and Hugging Face models via
-          Transformers.js, supported by a Node.js/Express backend
-          <br />• Contributed to a major semiconductor client project by
-          implementing unit tests with Karma and Jasmine (90% code coverage) and
-          end-to-end testing using Playwright,
+          <p className="font-semibold">April 2024 - Present</p>
+          <p className="text-lg">
+            At UST, I have been working on some pretty interesting internal
+            applications. One of them is a sports event management app where I
+            built the front-end using React and set up role-based access
+            controls. I also worked on a multilingual translation app using
+            React and integrated it with Hugging Face for real-time
+            translations. It’s been fun diving into both front-end and a bit of
+            backend with Node.js!
+          </p>
         </li>
         <li>
-          <strong>Polaris Aura Sdn. Bhd. | July 2023 - April 2024</strong>
-          <br />• Built responsive e-commerce web applications using React.js
-          and RESTful APIs
-          <br /> • Optimized performance through code splitting, reducing
-          initial load times by 20%
-          <br /> • Enhanced development efficiency with UI frameworks like
-          Material UI and Bootstrap
-          <br /> • Collaborated with team members using GitHub for version
-          control and project management
-          <br /> • Led daily client meetings, providing progress updates and
-          addressing evolving requirements to ensure project alignment
+          <strong className="text-xl">
+            Junior JavaScript Developer @ Polaris Aura Sdn. Bhd.
+          </strong>
+          <p className="font-semibold">July 2023 - April 2024</p>
+          <p className="text-lg">
+            At Polaris Aura, I built responsive web apps for e-commerce using
+            React. I focused a lot on improving performance — like cutting down
+            load times with code splitting. I also used Material UI to keep the
+            designs clean and consistent. It was a great experience working
+            closely with clients and collaborating daily with the dev team.
+          </p>
         </li>
         <li>
-          <strong>Gem Reward Sdn. Bhd. | October 2022 - December 2022</strong>
-          <br />
-          • Developed front-end features for mobile apps with React Native,
-          improving delivery speed by 10%
-          <br />
-          • Created reusable components to streamline development and maintain
-          consistency
-          <br />• Worked with GitLab for version control and task management in
-          Agile teams
+          <strong className="text-xl">
+            Junior Front-end Developer @ Gem Reward Sdn. Bhd.
+          </strong>
+          <p className="font-semibold">October 2022 - December 2022</p>
+          <p className="text-lg">
+            My first real dev role! I worked with React Native to build features
+            for a mobile app. I created reusable components and learned a ton
+            about working in Agile teams and using GitLab for version control.
+            It was a short gig, but it really helped me get comfortable with
+            real-world development.
+          </p>
         </li>
       </ul>
-    </section>
+    </motion.section>
   );
 };
 

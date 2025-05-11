@@ -1,7 +1,15 @@
+import { motion } from "framer-motion";
+
 const Certifications = () => {
   return (
-    <section className="my-12">
-      <h2 className="text-xl font-semibold mb-2">Certifications</h2>
+    <motion.section
+      className="py-12 text-center"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
+      {/* <h2 className="text-xl font-semibold mb-2">Certifications</h2> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div className="border rounded-lg p-4 shadow-sm">
           <img
@@ -15,7 +23,7 @@ const Certifications = () => {
           <p className="text-xs text-gray-500">Udemy - Feb 2025</p>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
