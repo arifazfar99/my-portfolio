@@ -26,6 +26,7 @@ const Experiences = () => {
             backend with Node.js!
           </p>
         </li>
+        <hr className="my-8" />
         <li>
           <strong className="text-xl">
             Junior JavaScript Developer @ Polaris Aura Sdn. Bhd.
@@ -39,6 +40,8 @@ const Experiences = () => {
             closely with clients and collaborating daily with the dev team.
           </p>
         </li>
+        <hr className="my-8" />
+
         <li>
           <strong className="text-xl">
             Junior Front-end Developer @ Gem Reward Sdn. Bhd.
@@ -52,6 +55,7 @@ const Experiences = () => {
             real-world development.
           </p>
         </li>
+        <hr className="my-8" />
       </ul>
     </motion.section>
   );
