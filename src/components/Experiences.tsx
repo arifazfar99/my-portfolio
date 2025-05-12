@@ -12,6 +12,15 @@ const Experiences = () => {
       <h2 className="text-2xl font-bold mb-2">Career</h2>
       <ul className="space-y-7 max-w-2xl">
         <li>
+          <div className="flex justify-center">
+            <img
+              src="/career/ust-logo.jpeg"
+              alt="UST Global Sdn. Bhd."
+              width={200}
+              height={200}
+              className="mb-2 border rounded-lg"
+            />
+          </div>
           <strong className="text-xl">
             Software Engineer @ UST Global (Malaysia) Sdn. Bhd. <br />{" "}
           </strong>
@@ -28,6 +37,15 @@ const Experiences = () => {
         </li>
         <hr className="my-8" />
         <li>
+          <div className="flex justify-center">
+            <img
+              src="/career/polarisaura-logo.png"
+              alt="Polaris Aura Sdn. Bhd."
+              width={200}
+              height={200}
+              className="mb-2 bg-black p-3 border rounded-lg"
+            />
+          </div>
           <strong className="text-xl">
             Junior JavaScript Developer @ Polaris Aura Sdn. Bhd.
           </strong>
@@ -41,10 +59,18 @@ const Experiences = () => {
           </p>
         </li>
         <hr className="my-8" />
-
         <li>
+          <div className="flex justify-center">
+            <img
+              src="/career/zcity-logo.jpg"
+              alt="Polaris Aura Sdn. Bhd."
+              width={200}
+              height={200}
+              className="mb-2 border rounded-lg"
+            />
+          </div>
           <strong className="text-xl">
-            Junior Front-end Developer @ Gem Reward Sdn. Bhd.
+            Junior Front-end Developer @ ZCity Sdn. Bhd.
           </strong>
           <p className="font-semibold">October 2022 - December 2022</p>
           <p className="text-lg text-justify">
