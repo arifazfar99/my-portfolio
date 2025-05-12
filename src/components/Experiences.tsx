@@ -16,7 +16,7 @@ const Experiences = () => {
             Software Engineer @ UST Global (Malaysia) Sdn. Bhd. <br />{" "}
           </strong>
           <p className="font-semibold">April 2024 - Present</p>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             At UST, I have been working on some pretty interesting internal
             applications. One of them is a sports event management app where I
             built the front-end using React and set up role-based access
@@ -31,7 +31,7 @@ const Experiences = () => {
             Junior JavaScript Developer @ Polaris Aura Sdn. Bhd.
           </strong>
           <p className="font-semibold">July 2023 - April 2024</p>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             At Polaris Aura, I built responsive web apps for e-commerce using
             React. I focused a lot on improving performance — like cutting down
             load times with code splitting. I also used Material UI to keep the
@@ -44,7 +44,7 @@ const Experiences = () => {
             Junior Front-end Developer @ Gem Reward Sdn. Bhd.
           </strong>
           <p className="font-semibold">October 2022 - December 2022</p>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             My first real dev role! I worked with React Native to build features
             for a mobile app. I created reusable components and learned a ton
             about working in Agile teams and using GitLab for version control.

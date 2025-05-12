@@ -12,7 +12,7 @@ const Hero = () => {
       <h1 className="text-4xl font-bold mb-2">
         Hi, my name is Arif Azfar<span className="wave">👋</span>
       </h1>
-      <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+      <p className="text-gray-600 max-w-2xl mx-auto text-lg text-justify">
         and I am a front-end developer who enjoys building cool stuff with React
         and TypeScript. I am currenty learning more about the backend world to
         grow into full-stack dev. Feel free to check out my projects and say hi!

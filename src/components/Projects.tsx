@@ -21,7 +21,7 @@ const Projects = () => {
             {" "}
             Link
           </a>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Track My Gaji is a salary calculator I built to figure out my net
             pay after Malaysia’s EPF, SOCSO, and EIS deductions. It also tracks
             personal commitments like car loans, phone bills and Netflix
