@@ -9,6 +9,14 @@ const Hero = () => {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
+      {/* <div className="flex justify-center mb-2">
+        <img
+          src="/profile.jpg"
+          alt="Arif Azfar"
+          className="rounded-full"
+          loading="lazy"
+        />
+      </div> */}
       <h1 className="text-4xl font-bold mb-2">
         Hi, my name is Arif Azfar<span className="wave">👋</span>
       </h1>

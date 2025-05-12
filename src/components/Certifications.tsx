@@ -17,10 +17,10 @@ const Certifications = () => {
             alt="ReactJS"
             className="rounded mb-2"
           />
-          <h3 className="text-sm font-medium">
+          <h3 className="text-lg font-medium">
             React - The Complete Guide 2025
           </h3>
-          <p className="text-xs text-gray-500">Udemy - Feb 2025</p>
+          <p className="text-md text-gray-500">Udemy - Feb 2025</p>
         </div>
       </div>
     </motion.section>
