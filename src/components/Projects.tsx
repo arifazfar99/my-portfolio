@@ -26,7 +26,7 @@ const Projects = () => {
             pay after Malaysia’s EPF, SOCSO, and EIS deductions. It also tracks
             personal commitments like car loans, phone bills and Netflix
             subcription. I used React and Tailwind CSS to make the UI clean and
-            responsive — and I actually finished it in just 2 days!
+            responsive.
           </p>
         </li>
       </ul>
