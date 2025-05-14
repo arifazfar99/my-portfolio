@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Hero from "./components/Hero";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           />
           <Route path="/projects" element={<Projects />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/contact-me" element={<Contact />} />
         </Routes>
       </main>
       <Footer />
