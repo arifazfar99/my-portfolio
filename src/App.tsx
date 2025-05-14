@@ -27,7 +27,7 @@ function App() {
           />
           <Route path="/projects" element={<Projects />} />
           <Route path="/certifications" element={<Certifications />} />
-          <Route path="/contact-me" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

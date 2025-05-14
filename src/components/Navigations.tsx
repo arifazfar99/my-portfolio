@@ -37,7 +37,7 @@ const Navigations = () => {
         Certifications
       </NavLink>
       <NavLink
-        to="/contact-me"
+        to="/contact"
         className={({ isActive }) =>
           isActive ? `${navLinkStyle} ${activeStyle}` : navLinkStyle
         }

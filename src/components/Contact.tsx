@@ -9,7 +9,7 @@ const Contact = () => {
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-    //   viewport={{ once: true }}
+      viewport={{ once: true }}
     >
       <h1 className="text-4xl font-bold pb-12">Let's Connect</h1>
       <p className="text-lg text-gray-700 mb-6">
