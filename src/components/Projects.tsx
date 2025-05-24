@@ -14,7 +14,7 @@ const Projects = () => {
         <li>
           <strong className="text-xl">PlanIt</strong>
           <a
-            href="https://project-management-three-snowy.vercel.app/"
+            href="https://planit.arifazfar.com/"
             className="text-blue-600 text-md"
             target="_blank"
           >
@@ -32,7 +32,7 @@ const Projects = () => {
         <li>
           <strong className="text-xl">Track My Gaji</strong>
           <a
-            href="https://track-my-gaji.vercel.app/"
+            href="https://track-my-gaji.arifazfar.com/"
             className="text-blue-600 text-md"
             target="_blank"
           >
