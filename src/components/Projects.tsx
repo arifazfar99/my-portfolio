@@ -12,7 +12,25 @@ const Projects = () => {
       <h1 className="text-4xl font-bold pb-12">Projects</h1>
       <ul className="space-y-4">
         <li>
-          <strong className="text-xl">Track My Gaji (April 2025)</strong>
+          <strong className="text-xl">PlanIt</strong>
+          <a
+            href="https://project-management-three-snowy.vercel.app/"
+            className="text-blue-600 text-md"
+            target="_blank"
+          >
+            {" "}
+            Link
+          </a>
+          <p className="text-lg text-justify">
+            A Kanban board for managing tasks across "To Do", "In Progress" and
+            "Completed" columns with drag-and-drop functionality. Users can
+            create, edit, delete and move tasks with smooth UX, assign due
+            dates, manage their work in real-time and includes secure user
+            authentication.
+          </p>
+        </li>
+        <li>
+          <strong className="text-xl">Track My Gaji</strong>
           <a
             href="https://track-my-gaji.vercel.app/"
             className="text-blue-600 text-md"
