@@ -10,9 +10,12 @@ const Projects = () => {
       viewport={{ once: true }}
     >
       <h1 className="text-4xl font-bold pb-12">Projects</h1>
-      <ul className="space-y-4">
+      <ul className="space-y-6">
         <li>
-          <strong className="text-xl">PlanIt</strong>
+          <section className="flex justify-center">
+            <img src="/projects/planit-2.png" alt="PlanIt Logo" width={300} />
+          </section>
+          <strong className="text-xl">PlanIt!</strong>
           <a
             href="https://planit.arifazfar.com/"
             className="text-blue-600 text-md"
