@@ -12,6 +12,30 @@ const Projects = () => {
       <h1 className="text-4xl font-bold pb-12">Projects</h1>
       <ul className="space-y-6">
         <li>
+          <strong className="text-xl">OllamaGPT UI</strong>
+          <p className="text-lg text-justify">
+            A custom chatbot interface inspired by ChatGPT that leverages
+            Ollama's local LLMs for conversational AI. It supports multiple chat
+            threads, renaming and deletion of threads, and persistent message
+            history stored on the backend.
+          </p>
+          <div className="text-lg text-justify">
+            <span className="font-semibold block mb-1">Tech Stack:</span>
+            <ul className="list-disc list-inside text-base text-gray-700 ml-4">
+              <li>
+                <strong>Frontend:</strong> Vite + React + TypeScript + Tailwind
+                CSS
+              </li>
+              <li>
+                <strong>Backend:</strong> Node.js + Express
+              </li>
+              <li>
+                <strong>Local LLM:</strong> Ollama (LLaMA 3 model)
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
           <section className="flex justify-center">
             <img src="/projects/planit-2.png" alt="PlanIt Logo" width={300} />
           </section>
@@ -31,6 +55,21 @@ const Projects = () => {
             dates, manage their work in real-time and includes secure user
             authentication.
           </p>
+          <div className="text-lg text-justify">
+            <span className="font-semibold block mb-1">Tech Stack:</span>
+            <ul className="list-disc list-inside text-base text-gray-700 ml-4">
+              <li>
+                <strong>Frontend:</strong> Vite + React + TypeScript + Tailwind
+                CSS + dnd-kit
+              </li>
+              <li>
+                <strong>Backend/Database/Authentication:</strong> Supabase
+              </li>
+              <li>
+                <strong>Deployment:</strong> Vercel
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           <strong className="text-xl">Track My Gaji</strong>
@@ -49,6 +88,21 @@ const Projects = () => {
             subcription. I used React and Tailwind CSS to make the UI clean and
             responsive.
           </p>
+          <div className="text-lg text-justify">
+            <span className="font-semibold block mb-1">Tech Stack:</span>
+            <ul className="list-disc list-inside text-base text-gray-700 ml-4">
+              <li>
+                <strong>Frontend:</strong> Vite + React + TypeScript + Tailwind
+                CSS
+              </li>
+              <li>
+                <strong>State & Storage:</strong> LocalStorage
+              </li>
+              <li>
+                <strong>Deployment:</strong> Vercel
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
     </motion.section>
