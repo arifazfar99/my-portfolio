@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <h1 className="text-4xl font-bold pb-12">Projects</h1>
       <ul className="space-y-6">
-        <li>
+        {/* <li>
           <strong className="text-xl">OllamaGPT UI</strong>
           <p className="text-lg text-justify">
             A custom chatbot interface inspired by ChatGPT that leverages
@@ -34,7 +34,7 @@ const Projects = () => {
               </li>
             </ul>
           </div>
-        </li>
+        </li> */}
         <li>
           <section className="flex justify-center">
             <img src="/projects/planit-2.png" alt="PlanIt Logo" width={300} />
