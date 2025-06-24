@@ -68,6 +68,17 @@ const Projects = () => {
               <li>
                 <strong>Deployment:</strong> Vercel
               </li>
+              <li>
+                <strong>Github repo:</strong>{" "}
+                <a
+                  href="https://github.com/arifazfar99/project-management"
+                  className="text-blue-600 text-md"
+                  target="_blank"
+                >
+                  {" "}
+                  Link
+                </a>
+              </li>
             </ul>
           </div>
         </li>
@@ -100,6 +111,17 @@ const Projects = () => {
               </li>
               <li>
                 <strong>Deployment:</strong> Vercel
+              </li>
+              <li>
+                <strong>Github repo:</strong>{" "}
+                <a
+                  href="https://github.com/arifazfar99/track-my-gaji"
+                  className="text-blue-600 text-md"
+                  target="_blank"
+                >
+                  {" "}
+                  Link
+                </a>
               </li>
             </ul>
           </div>

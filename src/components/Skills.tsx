@@ -4,6 +4,7 @@ import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoVercel } from "react-icons/io5";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
@@ -23,6 +24,10 @@ const Skills = () => {
           <li className="flex flex-col justify-center items-center">
             <FaReact size={30} className="mb-2" />
             React.js
+          </li>
+          <li className="flex flex-col justify-center items-center">
+            <RiNextjsFill size={30} className="mb-2" />
+            Next.js
           </li>
           <li className="flex flex-col justify-center items-center">
             <SiTypescript size={30} className="mb-2" /> TypeScript
